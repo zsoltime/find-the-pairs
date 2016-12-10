@@ -1,0 +1,59 @@
+extends layout
+block title
+  title (7) Find the Pairs
+block content
+  .splash
+    h1 Find #[span the] Pairs
+    .btn-group
+      button#start Lemme Find 'em
+      button#level Choose Board
+      button#info Info
+    .game-bg
+  .options#options
+    .board-sizes#sizes
+      h2 Select Your Board Size
+      div(data-size=6, data-table='3x2')
+        p 3x2
+        p (3 pairs)
+      div(data-size=12, data-table='4x3')
+        p 4x3
+        p (6 pairs)
+      div(data-size=16, data-table='4x4')
+        p 4x4
+        p (8 pairs)
+      div(data-size=20, data-table='5x4').active
+        p 5x4
+        p (10 pairs)
+      div(data-size=24, data-table='6x4')
+        p 6x4
+        p (12 pairs)
+      div(data-size=28, data-table='7x4')
+        p 7x4
+        p (14 pairs)
+      div(data-size=30, data-table='6x5')
+        p 6x5
+        p (15 pairs)
+      div(data-size=36, data-table='6x6')
+        p 6x6
+        p (18 pairs)
+    .categories#cats
+      h2 Select a Category
+      div(data-category='arrows')
+        p 20 icons
+        p Arrows
+      div(data-category='brands')
+        p 33 icons
+        p Brands
+      div(data-category='defs')
+        p 18 icons
+        p Default set
+      div(data-category='coding')
+        p 45 icons
+        p Coding
+      div(data-category='social')
+        p 39 icons
+        p Social
+  .game#game
+    h1 Find #[span the] Pairs
+    ul#board.board
+    .gameover#gameover
