@@ -2,9 +2,9 @@
 
 Today's game is a lovely memory game, "Find the Pairs". It's very simple - you turn over one card and then try to find its matching pair.
 
-You can choose from different sizes of boards and there are also different categories
+You can choose from different sizes of boards and there are also different categories. It uses some FontAwesome's awesome fonts, and was built using Jade, Sass and vanilla JS only.
 
-It uses some FontAwesome's awesome fonts, and was built using Jade, Sass and vanilla JS only.
+If you liked this game, you can check out some of the other ones from my [3 weeks game challenge](https://github.com/zsoltime/game-challenge).
 
 ## User Stories
 
